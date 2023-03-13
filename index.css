@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #3A1485;
+}
+section{
+    background-color:#3A1485;
+    margin: 100px;
+}
+
+/*---------------------------------NAV_Bar------------------------------*/
+.nav-bar{
+    background-color:#250C63 ;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+.btn-bar{
+    display: none;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    font-size: 40px;
+}
+span{
+    color: rgb(240, 47, 230);
+}
+.nav li{
+    margin: 5px;
+    padding: 10px;
+}
+.sign-btn{
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(75, 83, 192);
+    border-top: 0;
+    border-left: 0;
+    border-right: 2;
+}
+    
+
+/* <!---------------------------------BEGINNING------------------------------> */
+
+.first-body{
+    display: flex;
+    justify-content: space-around;
+    margin: 40p;
+}
+.f-left{
+    margin-top: 120px;
+}
+.airpodpro{
+    width: 400px;
+    margin-top: -20px;
+}
+.f-heading{
+    font-size:60px ;
+}
+
+/*---------------------------------FEATURES------------------------------*/
+
+.FEATURES{
+    display: grid;
+    justify-content: center;
+}
+.s-heading{
+    font-size:60px ;
+    text-align: center;
+    margin-bottom : 40px;
+    border-bottom:1px solid  #ff09f3;
+}
+.s-heading2{
+    font-size:60px ;
+    text-align: center;
+    margin-bottom : 40px;
+    border-bottom:1px solid  #ff09f3;  
+}
+main{
+    display: grid;
+    justify-content: center;
+    position: relative;
+}
+.airpod2{
+    width: 400px;
+    background-color: transparent;
+}
+.s-card{
+    width: 200px;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    right: 340px;
+    bottom: 300px;
+    background-color: #4215A6;
+    box-shadow: 0px 0px 20px 10px  #250C63 ;
+}
+.s-card2{
+    width: 200px;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    right: 200px;
+    bottom: 120px;
+    background-color: #4215A6;
+    box-shadow: 0px 0px 20px 10px  #250C63 ;
+}
+.s-card3{
+    width: 230px;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    left: 280px;
+    bottom: 230px;
+    background-color: #4215A6;
+    box-shadow: 0px 0px 20px 10px  #250C63 ;
+}
+.s-card4{
+    width: 200px;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    left: 420px;
+    bottom: 640px;
+    background-color: #4215A6;
+    box-shadow: 0px 0px 20px 10px  #250C63 ;
+}
+h3{
+    text-align: center;
+}
+
+/*---------------------------------PRODUCTS------------------------------*/
+
+.Products{
+    margin-top: -300px;
+    display: grid;
+    justify-content: center;
+}
+.carts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* margin-left: 180px;
+    margin-right:200px; */
+    margin: 40px;
+}
+.cart{ 
+    display: grid;
+    justify-content: center;
+    width: 200px;
+    height: 400px;
+    background-color: #4215A6;
+    box-shadow: 0px 0px 20px 10px  #250C63 ;
+    text-align: center;
+    padding: 50px;
+    border-radius: 30px;
+    margin: 20px;
+}
+.grid-pods{
+    margin-top: 25px;
+    width: 200px;
+}
+.grid-pods2{
+    margin-top: -80px;
+    width: 300px;
+}
+.grid-pods3{
+    width: 300px;
+    
+}
+.grid-pods4{
+    width: 300px;
+    margin-top: -20px;
+}
+
+/*---------------------------------LATEST_NEWS------------------------------*/
+
+.news-box{
+    display: flex;
+    width: 800px;
+    height: 100px;
+    background-color: #4215A6;
+    box-shadow: 0px 0px 20px 10px  #250C63 ;
+    padding: 20px;
+}
+.apple-logo{
+    color: #9A4BFF;
+    font-size: 100px;
+    padding: 10px;
+   margin-top: -10px;
+}
+.inside-nbox{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.news{
+    display:grid ;
+    justify-content: center;
+}
+.newss{
+    margin: 30px;
+}
+.load-btn{
+    background-color: #4215A6 ;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    width: 120px;
+    border: 1px solid #9A4BFF;
+    margin-left: 370px;
+}
+
+/*---------------------------------TESTIMONIAL------------------------------*/
+
+.testy-boxs{
+    display: flex;
+    width: 900px;
+    height: 200px;
+    background-color: #4215A6;
+    box-shadow: 0px 0px 20px 10px  #250C63 ;
+    padding: 20px;
+}
+.t-description{
+    font-size: 20px;
+}
+
+
+/*---------------------------------FOOTER------------------------------*/
+
+
+footer{
+    background-color: #250C63;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.childs{
+    margin: 20px;
+}
+
+.social-links i{
+    margin-top: 5px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.social-links i:hover{
+    background-color:#ff09f3 ;
+    color:white ;
+}
+
+footer h4{
+    font-size: 25px;
+}
+.headings{
+    display: inline-block;
+    border-bottom:2px solid  #ff09f3;
+    margin-bottom: 10px;
+}
+
+
+/*---------------------------------RESPONSIVE------------------------------*/
+
+
+@media screen and (max-width: 688px){
+
+
+
+
+    /*--------------------NAV--------------------*/
+    .nav-bar{
+        position: relative;
+        
+    }
+    .nav{
+        display: none;
+    }
+    .btn-bar{
+        display: block;
+        padding: 6px;
+        background-color: transparent;
+        border: 0px;
+        color: white;
+    }
+    .btn-bar:hover+.nav{
+        display: block;
+        position: absolute;
+        top:100%;
+        right: 100;
+        background-color: #250C63;
+        width: 100%;
+    }
+    .sign-btn{
+        display: none;
+    }
+
+    /*--------------BEGINNING----------------*/
+
+    .first-body{
+        flex-direction: column;
+    }
+    .f-left{
+        text-align: center;
+        margin-top: -20px;
+        width: 100%;
+    }
+    .f-heading{
+        font-size: 40px;
+    }
+    .airpodpro{
+        margin-top: 30px;
+        width: 100%;
+        
+    }
+
+
+    /*------------FEATURES---------------*/
+
+    .scards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .s-card{
+        position: relative;
+        left: 50px;
+        top:  -10px;
+        margin: 5px;
+        width: 120px;
+        font-size: 12px;
+        padding: 10;
+    }
+    .s-card2{
+        position: relative;
+        left: 50px;
+        top:  -10px;
+        margin: 5px;
+        width: 120px;
+        font-size: 12px;
+        padding: 10;
+    }
+    .s-card3{
+        position: relative;
+        left: 50px;
+        top:  -10px;
+        margin: 5px;
+        width: 120px;
+        font-size: 12px;
+        padding: 10;
+    }
+    .s-card4{
+        position: relative;
+        left: 50px;
+        top:  -10px;
+        margin: 5px;
+        width: 120px;
+        font-size: 12px;
+        padding: 10;
+    }
+    .test{
+        margin-left: -90px;
+    }
+    .airpod2{
+        margin-left: 120px;
+        width: 60%;
+        
+    }
+    
+
+        /*-----------------PRODUCTS-----------------*/
+
+    .Products{
+        margin:20px;   
+    }
+    .carts{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 10px;
+        justify-content: center;
+    }
+    .pera{
+        margin-top: 200px;
+        
+    }
+
+
+    /*----------------LATEST_NEWS---------------*/
+
+    .s-heading{
+        font-size: 40px;
+        border-bottom:1px solid  #ff09f3;
+        
+    }
+    .autistic{
+        margin-left: 80px;
+    }
+    .s-heading2{
+        font-size: 40px;
+        border-bottom:1px solid  #ff09f3;
+    }
+    .news-box{
+        width: 300px;
+        height: 120px;
+    }
+    .update-heading{
+        font-size: 20px;
+    }
+    .load-btn{
+        margin: auto;
+    }
+    .inside-nbox{
+        font-size: 12px;
+    }
+
+    /*------------------TESTIMONIAL------------*/
+
+    .testy-boxs{
+
+        border-radius: 20px;
+        width: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+        
+    }
+    .t-description{
+        font-size: 15px;
+        
+    }
+    
+    /*------------FOOTER--------------------*/
+
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        
+    }
+
+}
+
+/*----------------------------RESPONSIVE_TABLETS---------------------------*/
+
+@media screen and (min-width:689px) and (max-width:992px) {
+    
+
+/*--------------------BEGINNING-------------------*/
+
+    .f-heading{
+        font-size: 50px;
+    }
+    .airpodpro{
+        width: 100%;
+
+    }
+.first-body{
+    margin-top: 1px;
+}
+
+
+/*---------------------FEATURES------------------*/
+    
+    .airpod2{
+        margin-left: 200px;
+        width: 30%;
+
+         
+    }
+    .test{
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .s-card{
+        position: relative;
+        bottom: 160px;
+        right: 10px;
+        width: 160px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .s-card2{
+        position: relative;
+        bottom: 140px;
+        left: 50px;
+        width: 160px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .s-card3{
+        position: relative;
+        left: 320px;
+        top: -250px;
+        width: 160px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .s-card4{
+        position: relative;
+        left: 380px;
+        bottom: 490px;
+        width: 160px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+/*------------------PRODUCTS--------------------*/
+
+
+    .carts{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+
+        margin: 10px;
+    }
+
+/*----------------LATEST_NEWS--------------------*/
+
+    .news-box{
+        width: 700px;
+    }
+
+/*--------------TESTIMONIAL------------------*/
+
+    .testy-boxs{
+        width: 700px;
+    }
+
+}
+
+/*---------------------------------TATAH------------------------------*/
